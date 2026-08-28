@@ -1,5 +1,10 @@
+# 依赖与构建产物（install.sh 会本地 npm install + build）
 node_modules/
+dist/
+
+# 杂项
 *.log
 .DS_Store
 *.tgz
 .npm/
+*.tsbuildinfo
