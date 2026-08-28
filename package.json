@@ -1,0 +1,47 @@
+{
+  "name": "tabby-session-log",
+  "version": "1.0.0",
+  "description": "CRT-style session logging for Tabby: custom filename templates, strip escapes, write-error toasts",
+  "keywords": [
+    "tabby-plugin",
+    "tabby",
+    "log",
+    "save-output",
+    "session-log"
+  ],
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "watch": "webpack --mode development --watch"
+  },
+  "author": "yihan",
+  "license": "MIT",
+  "devDependencies": {
+    "@angular/common": "^15.0.0",
+    "@angular/core": "^15.0.0",
+    "@angular/forms": "^15.0.0",
+    "@types/node": "^18.0.0",
+    "@types/webpack-env": "^1.16.0",
+    "rxjs": "^7.3.0",
+    "tabby-core": "^1.0.231-nightly.0",
+    "tabby-electron": "^1.0.231-nightly.0",
+    "tabby-settings": "^1.0.231-nightly.0",
+    "tabby-ssh": "^1.0.231-nightly.0",
+    "tabby-terminal": "^1.0.231-nightly.0",
+    "ts-loader": "^9.4.0",
+    "typescript": "^4.9.5",
+    "webpack": "^5.24.4",
+    "webpack-cli": "^4.5.0"
+  },
+  "peerDependencies": {
+    "@angular/common": "^15.0.0",
+    "@angular/core": "^15.0.0",
+    "@angular/forms": "^15.0.0",
+    "rxjs": "^7.3.0",
+    "tabby-core": "*",
+    "tabby-electron": "*",
+    "tabby-settings": "*",
+    "tabby-ssh": "*",
+    "tabby-terminal": "*"
+  }
+}
